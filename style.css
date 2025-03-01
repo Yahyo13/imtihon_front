@@ -1,0 +1,201 @@
+body{
+    font-family: Roboto;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.a{
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+    margin-left: 30px;
+}
+
+.bu{
+    display: flex;
+    justify-content: end;
+    width: 1160px;
+}
+
+header img{
+    margin-left: 50px;
+}
+
+.b1 button{
+    background-color: rgba(26, 171, 123, 1);
+    color: #fff;
+    border: none;
+    width: 140px;
+    height: 40px;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.b1{
+    width: 400px;
+    
+}
+
+.b2 iframe{
+    width: 592px;
+    height: 334px;
+}
+
+.b1 h1{
+    font-size: 50px;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-evenly   ;
+    margin-top: 50px;
+}
+
+.box2 a{
+    text-decoration: none;
+   color: black;
+
+}
+
+.box2 div{
+    width: 330px;
+    height: 330px;
+    border: 2px solid gray;
+    border-radius: 7px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.box2 p,a,h1{
+    margin-left: 20px;
+    margin-right: 20px  ;
+    
+}
+
+.box2 p{
+margin-top: 50px;
+
+}
+
+.box2 h1{
+    margin-top: 30px;
+}
+
+.h{
+    text-align: center;
+}
+
+.box2 div:hover{
+    color: #fff;
+    background-color: rgba(26, 171, 123, 1);
+}
+
+.ob{
+    display: flex;
+    flex-wrap: wrap ;
+  
+    margin-left: 120px;
+}
+
+.bg{
+    background-image: url(./image\ 1\ \(2\).png);
+    background-color: black;
+    width: 900px;
+    height: 420px;
+    margin: 0 auto;
+}
+
+.hb{
+   margin: 0 auto;
+    width: 350px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+label{
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+
+.in{
+    background-color: black;
+    opacity: 0.65;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 250px;
+    background: none;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.in button{
+    color: #fff;
+    background-color: rgba(26, 171, 123, 1);
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.butt{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+footer{
+    background-color: rgba(16, 16, 16, 1);
+    margin-top: 40px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.j{
+    width: 12px;
+    height: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    margin-left: 1080px;
+}
+
+.i{
+    width: 50px;
+    height: 20px;
+    margin-left: 40px;
+}
+
+button:active{
+    background-color: gray;
+    color: #000;
+}
+
